@@ -1,0 +1,67 @@
+		header{
+			background-color: purple;
+			text-align: center;
+
+		}
+
+			/*	nav{
+			background-color: white;
+			text-align: right;
+			text-decoration-color: purple;
+      font-style: arial;
+
+		}*/
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: black;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: white;
+}
+		iframe{
+			border: 10px solid black;
+		}
+		aside{
+			  font-family: 'Courgette', cursive;
+			  text-align: center;
+
+		}
+h1{
+	text-align: center;
+	 border: 5px solid purple;
+}
+
+
+				@media only screen and (min-width: 500px) {
+				header{
+					background-color: white;
+}
+
+
+		@media only screen and (min-width: 768px) {
+				header{
+					background-color: black;
+						}
+
+				}
